@@ -1,37 +1,38 @@
 # EXP-2-Transfer-Characteristics-of-CE-Amplifier
 # Aim:
 To determine the Transistor characteristics of CE amplifier using LTspice.
+
 # Apparatus Required:
 LTspice Software
+
 # Theory:
 A BJT is a three terminal, two-junction semiconductor device in which the conduction is due to both the charge carriers. Hence it is a bipolar device. BJT is classified into two types - NPN and PNP. A PNP transistor consists of two P type regions with a layer of N type in between, while in an NPN transistor a layer of P is sandwiched between two N type regions. The transistor consists of three terminals emitter, collector and base. The emitter layer is the source of the charge carriers and it is heavily doped with moderate cross-sectional area. The collector collects the charge carriers and hence moderate doping and large cross sectional area. The base region acts a path for the movement of the charge carriers. In order to reduce the recombination of holes and electrons, the base region is lightly doped and is of hollow cross sectional area. Normally the transistor operates with the EB junction forward biased.
+
 # Input Characteristics:
 The input characteristic of a CE configuration is the variation of base current (IB) with base-emitter voltage (VBE) for a constant collector-emitter voltage (VCE).
+
 # Output Characteristics:
 The output characteristic of a CE configuration is the variation of collector current (IC) with collector-emitter voltage (VCE) for a constant base current (IB).
+
 # Procedure:
 
 # Input Characteristics
 i) Connect the circuit as per the circuit diagram.
+
 ii) Set VCE to a particular value and vary VBE in regular intervals of steps and note down the corresponding IB reading. Repeat the above procedure for different values of VCE.
+
 iii) Plot the graph: VBE vs IB for a constant VCE.
+
+<img width="1110" height="682" alt="image" src="https://github.com/user-attachments/assets/965713e2-7eb7-4484-8581-32579b4d177d" />
+
 # Output Characteristics
 i) Connect the circuit as per the circuit diagram.
+
 ii) Set IB and vary VCE in regular intervals of steps and note down the corresponding IC reading. Repeat the above procedure for different values of IB.
+
 iii) Plot the graph: VCE vs IC for a constant IB.
 
-# Input Characteristics
-<img width="833" height="562" alt="image" src="https://github.com/user-attachments/assets/a13996d1-7209-4e28-981b-3eec9472bd19" />
-
-# Output Characteristics
-<img width="836" height="545" alt="image" src="https://github.com/user-attachments/assets/61b3a113-d09b-40e6-b273-fc65274d4e75" />
+<img width="1107" height="712" alt="image" src="https://github.com/user-attachments/assets/451207ca-b3b3-4e06-8ec4-35273d1ba370" />
 
 # Result
 Thus, the transistor characteristics of CE amplifier was determined by simulation using LTSpice.
-
-simulation result:
-
-
-
-Result:
-Thus the Transistor characteristics of CE amplifier was determined by simulation using LTspice.
